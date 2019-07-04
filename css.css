@@ -1,0 +1,84 @@
+/**GLOBAL**/
+
+body {
+font-family : 'Myriad Pro', Calibri, serif;
+font-size : 13px;
+margin : 0px;
+padding : 0px
+color : blue;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2{
+	background-color: #FFFFF;
+	text-align: center;
+}
+
+header{
+ height: 100px;
+}
+
+footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #B0B0B0;
+}
+
+/**Menu**/
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	width: 100%;
+	background-color: #7B9497;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+.menu-ind:hover{
+	border-top: 5px solid #2CBDCF;
+	background-color: RGBa(80, 105, 110, 0.15);
+}
+
+.menu-exp:hover{
+	border-top: 5px solid #2CBDCF;
+	background-color: RGBa(80, 105, 110, 0.15);
+}
+
+.menu-con:hover{
+	border-top: 5px solid #2CBDCF;
+	background-color: RGBa(80, 105, 110, 0.15);
+}
+
+
+	
